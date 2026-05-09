@@ -121,8 +121,9 @@
 
 
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: #0a0a0c; color: var(--paper); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-html { scroll-behavior: smooth; max-width: 100%; }
+html, body { margin: 0; padding: 0; background: #0a0a0c; color: var(--paper); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; overflow-x: clip; }
+body { overflow-x: clip; }
 img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 
